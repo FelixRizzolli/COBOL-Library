@@ -76,7 +76,7 @@
       *---------------------------------------------------------------*
            MOVE 'TPL-BAT1'                           TO PGM-NAME
            MOVE 'TEMPLATE FOR COBOL BATCH-PROGRAMMS' TO PGM-DESCRIPTION
-      
+           MOVE ZERO                                 TO PGM-END-RC
            .
        PGM-INIT-EXIT. EXIT.
 
