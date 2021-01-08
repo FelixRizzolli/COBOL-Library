@@ -81,10 +81,30 @@
        PGM-INIT-EXIT. EXIT.
 
 
+           
+      *****************************************************************
+       PGM-FINISH SECTION.
+      *===============================================================*
+      
+      *---------------------------------------------------------------*
+      * MESSAGES                                                      *
+      *---------------------------------------------------------------*
+           DISPLAY 'INPUT IFILE001......: '
+           DISPLAY 'OUTPUT OFILE001.....: '
+           MOVE FUNCTION CURRENT-DATE TO PGM-DATE
+           DISPLAY PGM-NAME ' ENDE.......: '
+             PGM-DATE(1:4) '.' PGM-DATE(5:2) '.' PGM-DATE(7:2) ' '
+             PGM-DATE(9:2) ':' PGM-DATE(11:2) ':' PGM-DATE(13:2) ' '
+      *    END-DISPLAY
+           .
+       PGM-FINISH-EXIT. EXIT.
+
+
 
       *****************************************************************
        PGM-END SECTION.
       *===============================================================*
+           PERFORM PGM-FINISH.
            IF (PGM-END-RC > '004') THEN
               DISPLAY 'ERROR'
            ELSE
