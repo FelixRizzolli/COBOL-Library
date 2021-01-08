@@ -50,9 +50,7 @@
        WORKING-STORAGE SECTION.
       *===============================================================*
 
-       01  PGM-NAME                     PIC  X(8)    VALUE SPACES.
-       01  PGM-DATE                     PIC  X(21)   VALUE SPACES.
-       01  PGM-DESCRIPTION              PIC  X(71)   VALUE SPACES.
+       COPY 'ERRBWS.cob'.
 
       *****************************************************************
        PROCEDURE DIVISION.
@@ -67,21 +65,41 @@
            .
        MAIN-EXIT. EXIT.
 
+
+
       *****************************************************************
        PGM-INIT SECTION.
       *===============================================================*
-           MOVE 'TPL-BAT1'                            TO PGM-NAME
-           MOVE 'TEMPLATE FOR COBOL BATCH-PROGRAMMS'  TO PGM-DESCRIPTION
+      
+      *---------------------------------------------------------------*
+      * INITIALIZE VARIABLES                                          *
+      *---------------------------------------------------------------*
+           MOVE 'TPL-BAT1'                           TO PGM-NAME
+           MOVE 'TEMPLATE FOR COBOL BATCH-PROGRAMMS' TO PGM-DESCRIPTION
+      
            .
        PGM-INIT-EXIT. EXIT.
+
+
 
       *****************************************************************
        PGM-END SECTION.
       *===============================================================*
+           IF (PGM-END-RC > '004') THEN
+              DISPLAY 'ERROR'
+           ELSE
+              PERFORM DISPLAY-PGM-END
+              MOVE PGM-END-RC TO RETURN-CODE
+           END-IF
            GOBACK
            .
        PGM-END-EXIT. EXIT.
 
+      *****************************************************************
+      * COPYS                                                         *
+      *===============================================================*
+       COPY ERRB.
+      
       *****************************************************************
        END PROGRAM TPL-BAT1.
       *****************************************************************
