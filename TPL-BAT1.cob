@@ -1,10 +1,13 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. TPL-BAT1.
       *****************************************************************
-      * TPL-BAT1: TEMPLATE FOR COBOL BATCH-PROGRAMMS                  *
+      * TPL-BAT1: TEMPLATE FOR COBOL BATCH-PROGRAMMS WITH I/O         *
       *===============================================================*
       * VERSION: V01.00.00 - 08.01.2021 - 11:45 / URIZF               *
       *===============================================================*
+      * IN THIS TEMPLATE, RECORDS FROM A TEXT FILE ARE READ IN,       * 
+      * PROCESSED, AND THE PROCESSED RECORDS ARE WRITTEN TO AN OUTPUT * 
+      * file.                                                         *                                                  
       *                                                               *
       * INPUT:                                                        *
       * ======                                                        *
@@ -93,7 +96,9 @@
       * INITIALIZE VARIABLES                                          *
       *---------------------------------------------------------------*
            MOVE 'TPL-BAT1'                           TO PGM-NAME
-           MOVE 'TEMPLATE FOR COBOL BATCH-PROGRAMMS' TO PGM-DESCRIPTION
+           MOVE 'TEMPLATE FOR COBOL BATCH-PROGRAMMS WITH I/O' 
+             TO PGM-DESCRIPTION
+     *     END-MOVE
            MOVE ZERO                                 TO PGM-END-RC
       
       *---------------------------------------------------------------*
