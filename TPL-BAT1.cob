@@ -41,7 +41,7 @@
 
        FILE-CONTROL.
       *---------------------------------------------------------------*
-       COPY 'LIB/FILE/IFILEFC.cob' REPLACING 
+       COPY 'LIB/FILE/IFILEFCW.cob' REPLACING 
             ==:V1:== BY ==IFILE001==
             ==:V2:== BY =='IFILE001.txt'==.
 
@@ -50,9 +50,9 @@
       *****************************************************************
        FILE SECTION.
       *===============================================================*
-       COPY 'LIB/FILE/IFILEFD.cob' REPLACING 
+       COPY 'LIB/FILE/IFILEFDW.cob' REPLACING 
             ==:V1:== BY ==IFILE001==
-            ==:V2:== BY ==7==.
+            ==:V2:== BY ==80==.
 
       *****************************************************************
        WORKING-STORAGE SECTION.
@@ -98,7 +98,7 @@
            MOVE 'TPL-BAT1'                           TO PGM-NAME
            MOVE 'TEMPLATE FOR COBOL BATCH-PROGRAMMS WITH I/O' 
              TO PGM-DESCRIPTION
-     *     END-MOVE
+      *    END-MOVE
            MOVE ZERO                                 TO PGM-END-RC
       
       *---------------------------------------------------------------*

@@ -13,8 +13,10 @@ In this template, records from a text file are read in, processed, and the proce
 | ERRB      | This COPY contains several PICTUREs which are needed for error handling and also in the general program flow. |
 | ERRBWS    | This COPY contains standard routines for error handling. |
 | IFILEFC   | Standard copy for using an input file in the ENVIROMENT DIVISION -> INPUT-OUTPUT SECTION -> FILE-CONTOL with fixed record length. |
+| IFILEFCW  | Standard copy for using an Windows input file in the ENVIROMENT DIVISION -> INPUT-OUTPUT SECTION -> FILE-CONTOL.
 | IFILEFD   | Standard copy for using an input file in the DATA DIVISION -> FILE SECTION with a fixed record length.|
 | IFILEFDV  | Standard copy for using an input file in the DIVISION -> FILE SECTION with variable record length. |
+| IFILEFDW  | Standard copy for using an Windows input file in the DATA DIVISION -> FILE SECTION. |
 | IFILESE   | Standard copy with standard routines for using an input file. |
 | IFILESED  | Standard copy with standard routines for using an input file with option MISSING DD. |
 | IFILEWS   | Standard copy with PICTUREs for using an input file in the DATA DIVISION -> WORKING-STORAGE SECTION for data sets with fixed record length |
