@@ -43,7 +43,10 @@
       *---------------------------------------------------------------*
        COPY 'LIB/FILE/IFILEFCW.cob' REPLACING 
             ==:V1:== BY ==IFILE001==
-            ==:V2:== BY =='IFILE001.txt'==.
+            ==:V2:== BY =='IO/IFILE001.txt'==.
+       COPY 'LIB/FILE/OFILEFCW.cob' REPLACING 
+            ==:V1:== BY ==OFILE001==
+            ==:V2:== BY =='IO/OFILE001.txt'==.
 
       *****************************************************************
        DATA DIVISION.
@@ -52,6 +55,9 @@
       *===============================================================*
        COPY 'LIB/FILE/IFILEFDW.cob' REPLACING 
             ==:V1:== BY ==IFILE001==
+            ==:V2:== BY ==80==.
+       COPY 'LIB/FILE/OFILEFDW.cob' REPLACING 
+            ==:V1:== BY ==OFILE001==
             ==:V2:== BY ==80==.
 
       *****************************************************************
@@ -63,6 +69,13 @@
        COPY 'LIB/FILE/IFILEWS.cob' REPLACING ==:V1:== BY ==IFILE001==.
        01 IFILE001-REC.
         02 IFILE001-DATA            PIC X(7).
+           
+      *---------------------------------------------------------------*
+      * OUTPUT OFILE001                                               *
+      *---------------------------------------------------------------*
+       COPY 'LIB/FILE/OFILEWS.cob' REPLACING ==:V1:== BY ==OFILE001==.
+       01 OFILE001-REC.
+        02 OFILE001-DATA            PIC X(7).
 
       *---------------------------------------------------------------*
       * COPIES                                                        *
@@ -79,6 +92,10 @@
            PERFORM IFILE001-READ
            PERFORM UNTIL (IFILE001-EOF)
               DISPLAY IFILE001-DATA
+              IF (IFILE001-DATA NOT = SPACES) THEN
+                 MOVE IFILE001-DATA TO OFILE001-DATA
+                 PERFORM OFILE001-WRITE
+              END-IF
               PERFORM IFILE001-READ
            END-PERFORM.
 
@@ -105,6 +122,7 @@
       * OPEN FILES                                                    *
       *---------------------------------------------------------------*
            PERFORM FILE-OPEN-INPUT-IFILE001
+           PERFORM FILE-OPEN-OUTPUT-OFILE001
 
            .
        PGM-INIT-EXIT. EXIT.
@@ -122,6 +140,16 @@
        IFILE001-READ-EXIT. EXIT.   
 
 
+      
+      *****************************************************************
+       OFILE001-WRITE SECTION.
+      *===============================================================*
+           MOVE OFILE001-REC TO OFILE001-RECORD
+           PERFORM FILE-WRITE-OFILE001
+           .
+       OFILE001-WRITE-EXIT. EXIT.   
+      
+
            
       *****************************************************************
        PGM-FINISH SECTION.
@@ -131,12 +159,13 @@
       * CLOSE FILES                                                   *
       *---------------------------------------------------------------*
            PERFORM FILE-CLOSE-IFILE001
+           PERFORM FILE-CLOSE-OFILE001
       
       *---------------------------------------------------------------*
       * MESSAGES                                                      *
       *---------------------------------------------------------------*
            DISPLAY 'INPUT IFILE001......: ' IFILE001-COUNT
-           DISPLAY 'OUTPUT OFILE001.....: '
+           DISPLAY 'OUTPUT OFILE001.....: ' OFILE001-COUNT
            MOVE FUNCTION CURRENT-DATE TO PGM-DATE
            DISPLAY PGM-NAME ' ENDE.......: '
              PGM-DATE(1:4) '.' PGM-DATE(5:2) '.' PGM-DATE(7:2) ' '
@@ -167,7 +196,10 @@
        COPY 'LIB/ERR/ERRB'.
        COPY 'LIB/FILE/IFILESE.cob' REPLACING 
             ==:V1:== BY ==IFILE001==
-            ==:V2:== BY =='IFILE001.txt'==.
+            ==:V2:== BY =='IO/IFILE001.txt'==.
+       COPY 'LIB/FILE/OFILESE.cob' REPLACING 
+            ==:V1:== BY ==OFILE001==
+            ==:V2:== BY =='IO/OFILE001.txt'==.
       
       *****************************************************************
        END PROGRAM TPL-BAT1.
