@@ -4,7 +4,7 @@
 # Templates
 
 ## TPL-BAT1.cob
-In this template, records from a text file are read in, processed, and the processed records are written to an output file.
+The program reads information from two files, merges them and creates a report with control break which is written to an output file.
 
 
 # COPIES
