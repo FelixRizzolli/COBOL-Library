@@ -1,0 +1,50 @@
+ALAlabama
+AKAlaska
+AZArizona
+ARArkansas
+CACalifornia
+COColorado
+CTConnecticut
+DEDelaware
+FLFlorida
+GAGeorgia
+HIHawaii
+IDIdaho
+ILIllinois
+INIndiana
+IAIowa
+KSKansas
+KYKentucky
+LALouisiana
+MEMaine
+MDMaryland
+MAMassachusetts
+MIMichigan
+MNMinnesota
+MSMississippi
+MOMissouri
+MTMontana
+NENebraska
+NVNevada
+NHNew Hampshire
+NJNew Jersey
+NMNew Mexico
+NYNew York
+NCNorth Carolina
+NDNorth Dakota
+OHOhio
+OKOklahoma
+OROregon
+PAPennsylvania
+RIRhode Island
+SCSouth Carolina
+SDSouth Dakota
+TNTennessee
+TXTexas
+UTUtah
+VTVermont
+VAVirginia
+WAWashington
+WVWest Virginia
+WIWisconsin
+WYWyoming
