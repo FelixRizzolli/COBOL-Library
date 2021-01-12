@@ -1,9 +1,9 @@
       *****************************************************************
        FILE-OPEN-INPUT-:V1: SECTION.                                   
       *===============================================================*
-           OPEN INPUT :V1:                                             
-           IF (:V1:-ERROR)                                               
-           THEN                                                        
+           OPEN INPUT :V1:  
+                                                      
+           IF (:V1:-ERROR) THEN                                                        
              MOVE '999' TO PGM-ERR-RC                                  
              STRING 'ERROR OPEN INPUT ' :V2:                           
                DELIMITED BY SIZE 
@@ -24,9 +24,9 @@
       *****************************************************************
        FILE-READ-:V1: SECTION.                                         
       *===============================================================*
-           READ :V1:                                                   
-           IF (:V1:-ERROR)                                             
-           THEN                                                        
+           READ :V1:       
+
+           IF (:V1:-ERROR) THEN                                                        
              MOVE '999' TO PGM-ERR-RC                                  
              STRING 'ERROR READ ' :V2:                                 
                DELIMITED BY SIZE 
@@ -38,9 +38,10 @@
              END-STRING                                                
              MOVE ' ' TO PGM-ERR-MSG3                                  
              PERFORM PGM-ERR                                           
-           END-IF                                                      
-           IF (:V1:-OK)                                                  
-             THEN ADD 1 TO :V1:-COUNT                                  
+           END-IF 
+
+           IF (:V1:-OK) THEN 
+             ADD 1 TO :V1:-COUNT                                  
            END-IF                                                      
            .                                                           
        FILE-READ-:V1:-EXIT. EXIT.              
