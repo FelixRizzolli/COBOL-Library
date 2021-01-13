@@ -54,13 +54,13 @@
 
        FILE-CONTROL.
       *---------------------------------------------------------------*
-       COPY 'LIB/FILE/IFILEFCW.cob' REPLACING 
+       COPY 'LIB/INPUT/IFILEFCW.cob' REPLACING 
             ==:V1:== BY ==ICOMP==
             ==:V2:== BY =='IO/companies.txt'==.
-       COPY 'LIB/FILE/IFILEFCW.cob' REPLACING 
+       COPY 'LIB/INPUT/IFILEFCW.cob' REPLACING 
             ==:V1:== BY ==ISABB==
             ==:V2:== BY =='IO/stateabb.txt'==.
-       COPY 'LIB/FILE/OFILEFCW.cob' REPLACING 
+       COPY 'LIB/OUTPUT/OFILEFCW.cob' REPLACING 
             ==:V1:== BY ==OREPORT==
             ==:V2:== BY =='IO/OREPORT.txt'==.
 
@@ -69,13 +69,13 @@
       *****************************************************************
        FILE SECTION.
       *===============================================================*
-       COPY 'LIB/FILE/IFILEFDW.cob' REPLACING 
+       COPY 'LIB/INPUT/IFILEFDW.cob' REPLACING 
             ==:V1:== BY ==ICOMP==
             ==:V2:== BY ==80==.
-       COPY 'LIB/FILE/IFILEFDW.cob' REPLACING 
+       COPY 'LIB/INPUT/IFILEFDW.cob' REPLACING 
             ==:V1:== BY ==ISABB==
             ==:V2:== BY ==80==.
-       COPY 'LIB/FILE/OFILEFDW.cob' REPLACING 
+       COPY 'LIB/OUTPUT/OFILEFDW.cob' REPLACING 
             ==:V1:== BY ==OREPORT==
             ==:V2:== BY ==80==.
 
@@ -85,7 +85,7 @@
       *---------------------------------------------------------------*
       * INPUT ICOMP = COMPANIES GROWTH TABLE                          *
       *---------------------------------------------------------------*
-       COPY 'LIB/FILE/IFILEWS.cob' REPLACING ==:V1:== BY ==ICOMP==.
+       COPY 'LIB/INPUT/IFILEWS.cob' REPLACING ==:V1:== BY ==ICOMP==.
        01 ICOMP-REC.
            05 ICOMP-NAME               PIC X(38).
            05 ICOMP-STATE              PIC X(2).
@@ -95,7 +95,7 @@
       *---------------------------------------------------------------*
       * INPUT ISABB = USA STATE ABBREVITATIONS TABLE                  *
       *---------------------------------------------------------------*
-       COPY 'LIB/FILE/IFILEWS.cob' REPLACING ==:V1:== BY ==ISABB==.
+       COPY 'LIB/INPUT/IFILEWS.cob' REPLACING ==:V1:== BY ==ISABB==.
        01 ISABB-REC.
            05 ISABB-ABB                  PIC X(2).
            05 ISABB-STATE                PIC X(14).
@@ -104,7 +104,7 @@
       *---------------------------------------------------------------*
       * OUTPUT OREPORT                                                *
       *---------------------------------------------------------------*
-       COPY 'LIB/FILE/OFILEWS.cob' REPLACING ==:V1:== BY ==OREPORT==.
+       COPY 'LIB/OUTPUT/OFILEWS.cob' REPLACING ==:V1:== BY ==OREPORT==.
        01 OREPORT-REC.
            05 OREPORT-DATA            PIC X(80).
            
@@ -400,13 +400,13 @@
       * COPIES                                                        *
       *===============================================================*
        COPY 'LIB/ERR/ERRB'.
-       COPY 'LIB/FILE/IFILESE.cob' REPLACING 
+       COPY 'LIB/INPUT/IFILESE.cob' REPLACING 
             ==:V1:== BY ==ICOMP==
             ==:V2:== BY =='IO/companies.txt'==.
-       COPY 'LIB/FILE/IFILESE.cob' REPLACING 
+       COPY 'LIB/INPUT/IFILESE.cob' REPLACING 
             ==:V1:== BY ==ISABB==
             ==:V2:== BY =='IO/stateabb.txt'==.
-       COPY 'LIB/FILE/OFILESE.cob' REPLACING 
+       COPY 'LIB/OUTPUT/OFILESE.cob' REPLACING 
             ==:V1:== BY ==OREPORT==
             ==:V2:== BY =='IO/OREPORT.txt'==.
       
