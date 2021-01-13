@@ -115,11 +115,11 @@
            05 FILLER                  PIC X(54)   VALUE SPACES.
         
        01 OREPORT-H2.
-           05 OREPORT-H2-COMPANY      PIC X(7)    VALUE 'COMPANY'.
+           05 FILLER                  PIC X(7)    VALUE 'COMPANY'.
            05 FILLER                  PIC X(32)   VALUE ALL SPACES.
-           05 OREPORT-H2-STATE        PIC X(5)    VALUE 'STATE'.
+           05 FILLER                  PIC X(5)    VALUE 'STATE'.
            05 FILLER                  PIC X(10)   VALUE ALL SPACES.
-           05 OREPORT-H3-INDUSTRY     PIC X(6)    VALUE 'GROWTH'.     
+           05 FILLER                  PIC X(6)    VALUE 'GROWTH'.     
            05 FILLER                  PIC X(23)   VALUE SPACES.
            
       *-[ HORIZONTAL ROW ]--------------------------------------------*
@@ -142,7 +142,7 @@
       *-[ FOOTER ]----------------------------------------------------*
        01 OREPORT-F1.
            05 FILLER                  PIC X(52)   VALUE SPACES.
-           05 FILLER      PIC X(10)   VALUE ALL '-'.
+           05 FILLER                  PIC X(10)   VALUE ALL '-'.
            05 FILLER                  PIC X(18)   VALUE SPACES.
            
        01 OREPORT-F2.
@@ -232,7 +232,7 @@
            PERFORM VARYING TMP-I-TABLE FROM 1 BY 1
                      UNTIL (ISABB-EOF)
               ADD  1           TO TAB-SABB-MAX
-              IF (TAB-SABB-MAX > TAB-SABB-DIM)
+              IF (TAB-SABB-MAX > TAB-SABB-DIM) THEN
                  MOVE '999'                      TO PGM-ERR-RC
                  MOVE 'TABLE OVERFLOW: TAB-SABB' TO PGM-ERR-MSG1
                  PERFORM PGM-ERR
