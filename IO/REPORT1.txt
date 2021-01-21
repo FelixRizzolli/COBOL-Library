@@ -2,14 +2,16 @@
  ================================================================================
  COMPANY                                STATE          GROWTH
  --------------------------------------------------------------------------------
-
  Advanced Health Media                  New Jersey     2.935,0%
  BDA                                    Washington     2.557,0%
  Aspen Marketing Services               Illinois       3.012,0%
  Marketing Magic                        Florida        2.800,0%
                                                      ----------
                                                       11.304,0%
-
+1-> Advertising & Marketing                                                                                                         2
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  The Go Daddy Group                     Arizona        3.496,0%
  Apex Systems                           Virginia       3.985,0%
@@ -20,7 +22,10 @@
  Employers Resource Management Company  Texas          4.124,0%
                                                      ----------
                                                       32.992,0%
-
+1-> Bussiness Services                                                                                                              3
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  Vizio                                  California     9.000,0%
  Intcomex                               Florida            0,0%
@@ -28,7 +33,10 @@
  Wintec Industries                      California     6.297,0%
                                                      ----------
                                                       80.297,0%
-
+1-> Computers & Electronics                                                                                                         4
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  LPCiminelli                            New York       5.004,0%
  Hathaway Dinwiddie                     California     8.310,0%
@@ -58,16 +66,18 @@
  Rogers Group                           Tennessee      5.073,0%
                                                      ----------
                                                      253.266,0%
-1-> Construction                                                                                                                    2
+1-> Construction                                                                                                                    5
  ================================================================================
  COMPANY                                STATE          GROWTH
  --------------------------------------------------------------------------------
 
-
  Education Management Corporation       Pennsylvania   4.000,0%
                                                      ----------
                                                       14.000,0%
-
+1-> Education                                                                                                                       6
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  Stallion Oilfield Services             Texas          4.265,0%
  Energy Alloys                          Texas          3.344,0%
@@ -79,12 +89,18 @@
  Rhino Resource Partners                California     4.034,0%
                                                      ----------
                                                       40.571,0%
-
+1-> Energy                                                                                                                          7
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  Dakleaf Waste Management               Connecticut    4.818,0%
                                                      ----------
                                                        4.818,0%
-
+1-> Enviromental Services                                                                                                           8
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  Advanced Equities Financial            Illinois       3.006,0%
  Open Solutions                         Connecticut    4.442,0%
@@ -98,17 +114,26 @@
  Visa                                   California     6.000,0%
                                                      ----------
                                                      122.517,0%
-
+1-> Financial Services                                                                                                              9
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  Fairway Market                         New York       3.029,0%
                                                      ----------
                                                        3.029,0%
-
+1-> Food & Beverage                                                                                                                10
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  ATS Services                           Arizona        4.587,0%
                                                      ----------
                                                        4.587,0%
-
+1-> Goverment Services                                                                                                             11
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  Preferred Care Partners                Florida        3.348,0%
  Jackson Healthcare Solutions           Georgia        3.726,0%
@@ -117,8 +142,7 @@
  WMS                                    Missouri       3.383,0%
                                                      ----------
                                                       16.793,0%
-
-1-> Human Resources                                                                                                                 3
+1-> Health                                                                                                                         12
  ================================================================================
  COMPANY                                STATE          GROWTH
  --------------------------------------------------------------------------------
@@ -128,14 +152,20 @@
  Express Employment Professionals       Oklahoma       9.000,0%
                                                      ----------
                                                       26.750,0%
-
+1-> Human Resources                                                                                                                13
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  FirstComp                              Nebraska       2.709,0%
  Lockton                                Missouri       7.277,0%
  Omega Adminstrators                    Arkansas       2.739,0%
                                                      ----------
                                                       12.725,0%
-
+1-> Insurance                                                                                                                      14
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  FusionStorm                            California     3.258,0%
  Rackspace Managed Hosting              Texas          3.620,0%
@@ -143,7 +173,10 @@
  CSI Leasing                            Missouri       2.660,0%
                                                      ----------
                                                       12.761,0%
-
+1-> IT Services                                                                                                                    15
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  AmeriQuest Transportation Services     New Jersey     5.629,0%
  Weastern Petroleum                     Utah           2.938,0%
@@ -154,7 +187,10 @@
  GENCO Supply Chain Solutions           Pennsylvania   7.222,0%
                                                      ----------
                                                       40.973,0%
-
+1-> Logistics                                                                                                                      16
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  Mohawk Fine Papers                     New York       2.642,0%
  Plymouth Tube Company                  Illinois       2.736,0%
@@ -163,25 +199,30 @@
  Schweitzer Engeneering Laboratories    Washington     2.935,0%
                                                      ----------
                                                       16.813,0%
-
+1-> Manufactoring                                                                                                                  17
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  Stiles Corp.                           Florida        3.981,0%
  Widsor Capital Group                   California     3.201,0%
                                                      ----------
                                                        7.182,0%
-
+1-> Real Estate                                                                                                                    18
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
 
  Sprouts Farmers Market                 Arizona        2.535,0%
  ABB Concise                            Florida        3.037,0%
  GasAmerica Services                    Indiana        5.352,0%
                                                      ----------
                                                       10.924,0%
-
-
-1-> Telecommunications                                                                                                              4
+1-> Retail                                                                                                                         19
  ================================================================================
  COMPANY                                STATE          GROWTH
  --------------------------------------------------------------------------------
+
  Granite Telecommunications             Massachusetts  2.787,0%
  TelePacific Communications             California     4.220,0%
  Integra Telecom                        Oregon         4.704,0%

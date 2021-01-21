@@ -252,6 +252,7 @@
       *****************************************************************
        INDUSTRY-INIT SECTION.
       *===============================================================*
+           MOVE ZERO             TO CREPO1CA-COUNT-LINES
            MOVE ICOMP-INDUSTRY   TO OREPORT-H1-INDUSTRY
            MOVE ICOMP-INDUSTRY   TO TMP-SW-INDUSTRY
       
