@@ -1,0 +1,189 @@
+1-> Advertising & Marketing                                                                                                         1
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
+
+ Advanced Health Media                  New Jersey     2.935,0%
+ BDA                                    Washington     2.557,0%
+ Aspen Marketing Services               Illinois       3.012,0%
+ Marketing Magic                        Florida        2.800,0%
+                                                     ----------
+                                                      11.304,0%
+
+
+ The Go Daddy Group                     Arizona        3.496,0%
+ Apex Systems                           Virginia       3.985,0%
+ Sutherland Global Services             New York       3.058,0%
+ kgb                                    New York       6.492,0%
+ Benchmark Hospitality International    Texas          3.800,0%
+ Insurance Services Office              New Jersey     8.037,0%
+ Employers Resource Management Company  Texas          4.124,0%
+                                                     ----------
+                                                      32.992,0%
+
+
+ Vizio                                  California     9.000,0%
+ Intcomex                               Florida            0,0%
+ Kingston Technology                    California     5.000,0%
+ Wintec Industries                      California     6.297,0%
+                                                     ----------
+                                                      80.297,0%
+
+
+ LPCiminelli                            New York       5.004,0%
+ Hathaway Dinwiddie                     California     8.310,0%
+ Intech Construction                    Pennsylvania   2.848,0%
+ Structural Group                       Maryland       4.275,0%
+ L.F. Driscoll                          Pennsylvania   7.797,0%
+ Crossland Construction                 Kansas         4.750,0%
+ The Newtron Group                      Louisiana      2.633,0%
+ White-Spunner Construction             Alabama        2.807,0%
+ Mortenson Construction                 Minnesota      1.000,0%
+ Alberici Corperation                   Missouri       2.000,0%
+ HOK                                    Missouri       6.357,0%
+ Shawmut Design and Construction        Massachusetts  8.474,0%
+ CH2M Hill                              Colorado       8.000,0%
+ Adolfson & Peterson Construction       Minnesota      7.990,0%
+ Arco Construction                      Missouri       4.040,0%
+ DPR Construction                       California     5.000,0%
+ Rockford Construction                  Michigan       3.515,0%
+ JE Dunn Construction Group             Missouri       6.000,0%
+ Messer Construction                    Ohio           6.532,0%
+ Boran Craig Barber Engel Construction  Florida        3.372,0%
+ The Weitz Company                      Iowa           4.000,0%
+ Sundt Construction                     Arizona        8.927,0%
+ Roebbelen                              California     3.106,0%
+ HITT Contracting                       Virginia       9.000,0%
+ Harper Industries                      Kentucky       2.456,0%
+ Rogers Group                           Tennessee      5.073,0%
+                                                     ----------
+                                                     253.266,0%
+1-> Construction                                                                                                                    2
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
+
+
+ Education Management Corporation       Pennsylvania   4.000,0%
+                                                     ----------
+                                                      14.000,0%
+
+
+ Stallion Oilfield Services             Texas          4.265,0%
+ Energy Alloys                          Texas          3.344,0%
+ Edgen Murray                           Louisiana      9.177,0%
+ Accent Energy                          Ohio           3.050,0%
+ Union Distributing                     Arizona        4.304,0%
+ Ameresco                               Massachusetts  3.785,0%
+ Delta Energy                           Ohio           8.612,0%
+ Rhino Resource Partners                California     4.034,0%
+                                                     ----------
+                                                      40.571,0%
+
+
+ Dakleaf Waste Management               Connecticut    4.818,0%
+                                                     ----------
+                                                       4.818,0%
+
+
+ Advanced Equities Financial            Illinois       3.006,0%
+ Open Solutions                         Connecticut    4.442,0%
+ Noble Investment Group                 Georgia        3.292,0%
+ Scottrade                              Missouri       1.000,0%
+ A+ Mortgage Services                   Wisconsin      2.430,0%
+ CoBank                                 Colorado       8.000,0%
+ EVO Merchant Services                  New York       4.361,0%
+ William Blair & Company                Illinois       6.986,0%
+ Petters Group Worldwide                Minnesota      3.000,0%
+ Visa                                   California     6.000,0%
+                                                     ----------
+                                                     122.517,0%
+
+
+ Fairway Market                         New York       3.029,0%
+                                                     ----------
+                                                       3.029,0%
+
+
+ ATS Services                           Arizona        4.587,0%
+                                                     ----------
+                                                       4.587,0%
+
+
+ Preferred Care Partners                Florida        3.348,0%
+ Jackson Healthcare Solutions           Georgia        3.726,0%
+ Grupo HIMA San Pablo                   PR             3.758,0%
+ Trilogy Health Services                Kentucky       2.578,0%
+ WMS                                    Missouri       3.383,0%
+                                                     ----------
+                                                      16.793,0%
+
+1-> Human Resources                                                                                                                 3
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
+
+ ZeroChaos                              Florida        4.792,0%
+ G&A Partners                           Texas          2.958,0%
+ Express Employment Professionals       Oklahoma       9.000,0%
+                                                     ----------
+                                                      26.750,0%
+
+
+ FirstComp                              Nebraska       2.709,0%
+ Lockton                                Missouri       7.277,0%
+ Omega Adminstrators                    Arkansas       2.739,0%
+                                                     ----------
+                                                      12.725,0%
+
+
+ FusionStorm                            California     3.258,0%
+ Rackspace Managed Hosting              Texas          3.620,0%
+ Collabera                              New Jersey     3.223,0%
+ CSI Leasing                            Missouri       2.660,0%
+                                                     ----------
+                                                      12.761,0%
+
+
+ AmeriQuest Transportation Services     New Jersey     5.629,0%
+ Weastern Petroleum                     Utah           2.938,0%
+ Total Quality Logistics                Ohio           4.196,0%
+ Phoenix International Freight Services Illinois       7.426,0%
+ SEKO Worldwide                         Illinois       2.562,0%
+ Sun Coast Resources                    Texas          1.000,0%
+ GENCO Supply Chain Solutions           Pennsylvania   7.222,0%
+                                                     ----------
+                                                      40.973,0%
+
+
+ Mohawk Fine Papers                     New York       2.642,0%
+ Plymouth Tube Company                  Illinois       2.736,0%
+ New Era Cap                            New York       3.437,0%
+ Colfax                                 Virginia       5.063,0%
+ Schweitzer Engeneering Laboratories    Washington     2.935,0%
+                                                     ----------
+                                                      16.813,0%
+
+
+ Stiles Corp.                           Florida        3.981,0%
+ Widsor Capital Group                   California     3.201,0%
+                                                     ----------
+                                                       7.182,0%
+
+
+ Sprouts Farmers Market                 Arizona        2.535,0%
+ ABB Concise                            Florida        3.037,0%
+ GasAmerica Services                    Indiana        5.352,0%
+                                                     ----------
+                                                      10.924,0%
+
+
+1-> Telecommunications                                                                                                              4
+ ================================================================================
+ COMPANY                                STATE          GROWTH
+ --------------------------------------------------------------------------------
+ Granite Telecommunications             Massachusetts  2.787,0%
+ TelePacific Communications             California     4.220,0%
+ Integra Telecom                        Oregon         4.704,0%
+                                                     ----------
+                                                      11.711,0%

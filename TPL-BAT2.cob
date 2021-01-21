@@ -5,6 +5,9 @@
       *===============================================================*
       * VERSION: V01.00.00 - 08.01.2021 - 11:45 / URIZF               *
       *===============================================================*
+      * THE PROGRAM READS INFORMATION FROM TWO FILES, MERGES THEM AND *
+      * CREATES A REPORT WITH CONTROL BREAK WHICH IS WRITTEN TO AN    *
+      * OUTPUT FILE WITH THE COBOL REPORT WRITER.                     *
       *                                                               *
       * INPUT:                                                        *
       * ======                                                        *
@@ -18,6 +21,15 @@
       *                                                               *
       * PROCERSSING:                                                  *
       * ============                                                  *
+      * FIRST ALL STATE ABBREVITATIONS WITH THE CORRESPONDING STATE   *
+      * NAMES ARE READ FROM THE STATEABB.TXT AND THEN LOADED INTO A   *
+      * TABLE. FROM THE FILE COMPANIES.TXT A RECORD WITH A COMPANY IS *
+      * READ. FOR EACH COMPANY THE STATE NAME IS DETERMINED WITH      *
+      * STATE ABBREVITATION AND THE DATA RECORD OF THE COMPANY IS     *
+      * WRITTEN. IF IT IS A COMPANY THAT DOES NOT BELONG TO THE       *
+      * INDUSTRY GROUP OF THE PREVIOUSLY READ COMPANY OR THE FIRST    *
+      * ONE THAT WAS READ, THE HEADINGS OF THE INDUSTRY GROUP ARE     *
+      * WRITTEN TO THE OUTPUT FILE.                                   *
       *                                                               *
       *===============================================================*
       * AUTHOR: FELIX RIZZOLLI (FR)                        19.01.2021 *
@@ -255,9 +267,6 @@
            MOVE OREPORT-HR1      TO CREPO1CA-HEADER(2)
            MOVE OREPORT-H2       TO CREPO1CA-HEADER(3)
            MOVE OREPORT-HR2      TO CREPO1CA-HEADER(4)
-           
-           PERFORM CREPO1-WRITE
-           
            .
        INDUSTRY-INIT-EXIT. EXIT.
       *****************************************************************

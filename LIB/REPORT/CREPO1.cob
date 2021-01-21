@@ -203,9 +203,7 @@
       *===============================================================*
            CLOSE REPORT1                                              
            .                                                          
-       CLOSE-REPORT1-EXIT. EXIT.         
-           
-           
+       CLOSE-REPORT1-EXIT. EXIT.    
                                         
       
                                                          

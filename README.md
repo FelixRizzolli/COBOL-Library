@@ -3,9 +3,11 @@
 
 # Templates
 
-## TPL-BAT1.cob
+## TPL-BAT1.cob - Control Break
 The program reads information from two files, merges them and creates a report with control break which is written to an output file.
 
+## TPL-BAT1.cob - Cobol Report Writer
+Implements the same program logic as TPL-BAT1.cob with the COBOL Report Writer.
 
 # COPIES
 
@@ -43,3 +45,15 @@ The program reads information from two files, merges them and creates a report w
 | OFILESE   | tandard copy with standard routines for using an output file. |
 | OFILEWS   | Standard copy with PICTUREs for using an output file in the DATA DIVISION -> WORKING-STORAGE SECTION for data sets with fixed record length. |
 | OFILEWSV  | Standard copy with PICTUREs for using an output file in the DATA DIVISION -> WORKING-STORAGE SECTION for data sets with variable record length. |
+
+### COBOL Report Writer
+| COPY name | description  |
+|-----------|--------------|
+| CREPO1CA  | Contains the variable declaration for communication area of the subprogram CREPO1. |
+| CREPO1SE  | Contains several functions for working with the COBOL Report Writer. |
+| CREPO1WS  | Contains several copys and variable declarations which are useful for working with the COBOL Report Writer. |
+
+# Subprograms
+| Subprogram name | description  |
+|-----------------|--------------|
+| CREPO1          | Contains several functions for working with the COBOL Report Writer |
